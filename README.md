@@ -12,7 +12,8 @@
         binary tree with TL and TR as its left and right subtrees
         respectively, then T is height-balanced if
                1) TL and TR are height-balanced and
-               2) | hL- hR| ≤ 1 where hL and hR are the heights of TL and TR respectively.
+               2) | hL- hR| ≤ 1 where hL and hR
+                  are the heights of TL and TR respectively.
 
  
  ###### ◆ 높이 균형 트리 정의
