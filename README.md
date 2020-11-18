@@ -3,9 +3,15 @@
 
 ### avl_tree.c
 * AVL tree is a binary tree balanced with respect to the heights of subtrees
-- introduced by Adelson-Velskii and Landis, in 1962
-- use rebalancing using 4 kinds of rotations 
-- search, insert, delete: O(log n)
+ 1. introduced by Adelson-Velskii and Landis, in 1962
+ 2. use rebalancing using 4 kinds of rotations 
+ 3. search, insert, delete: O(log n)
+
+      -Definitions:
+        -An empty tree is height-balanced. If T is a nonempty binary tree with TL and TR
+          as its left and right subtrees respectively, then T is height-balanced iff
+               1) TL and TR are height-balanced and
+               2) | hL- hR| ≤ 1 where hL and hR are the heights of TL and TR respectively.
 
  
  
