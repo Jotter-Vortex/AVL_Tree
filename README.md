@@ -14,15 +14,15 @@
                2) | hL- hR| ≤ 1 where hL and hR are the heights of TL and TR respectively.
 
  
- - ◆ 높이 균형 트리 정의
+ ###### ◆ 높이 균형 트리 정의
    − 공백 트리 T는 높이 균형 트리
    − T는 공백이 아니고, 왼쪽과 오른쪽 서브트리가 TL과 TR인 이진 트리일 때
            TL과 TR이 높이 균형 트리이고
            | hL – hR | ≤ 1 (hL과 hR은 각각 TL, TR의 높이)
- - ◆ 앞의 12달 이진 탐색 트리에서
+ ###### ◆ 앞의 12달 이진 탐색 트리에서
     − (a), (c)는 높이균형을 이루지 못함
     − (b)는 높이균형을 이룸
- - ◆ 균형인수(balance factor)
+ ###### ◆ 균형인수(balance factor)
     − 왼쪽과 오른쪽 서브트리의 높이 차이
     − BF(N) = hL – hR
     − AVL 트리: 모든 노드 N에 대해 BF(N) = -1, 0, 1
