@@ -28,8 +28,14 @@
     − 단일회전(Single rotation): LL과 RR 불균형을 바로잡는 변환
     − 이중회전(Double rotation): LR과 RL 불균형을 바로잡는 변환
 
-
- 
+ ###### ☆Time complexity
+     − 원소 k를 탐색 : O(log n)
+     − j번째 항목을 탐색 : O(log n)
+     − 원소 k를 삭제  : O(log n)
+     − j번째 항목을 삭제 : O(log n)
+     − 삽입 : O(log n)
+     − 순서대로 출력 : O(n)
+     + (이중 연결 리스트이며 k의 위치를 알고있음. 삽입할 위치를 아는경우임.)
  
  + BST를 만들때, height를 고려하지않고 만든다면,
  + 노드의 개수가 n개라면 최악의 경우 log2(n)만큼의 비용이 발생합니다.
