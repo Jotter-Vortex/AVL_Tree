@@ -8,8 +8,9 @@
     −  3. search, insert, delete: O(log n)
 
 ###### Definitions:
-        -An empty tree is height-balanced. If T is a nonempty binary tree with TL and TR
-          as its left and right subtrees respectively, then T is height-balanced iff
+        -An empty tree is height-balanced. If T is a nonempty
+        binary tree with TL and TR as its left and right subtrees
+        respectively, then T is height-balanced if
                1) TL and TR are height-balanced and
                2) | hL- hR| ≤ 1 where hL and hR are the heights of TL and TR respectively.
 
