@@ -4,8 +4,8 @@
 ### avl_tree.c
 * AVL tree is a binary tree balanced with respect to the heights of subtrees
 - introduced by Adelson-Velskii and Landis, in 1962
-− use rebalancing using 4 kinds of rotations
-− search, insert, delete: O(log n)
+- use rebalancing using 4 kinds of rotations 
+- search, insert, delete: O(log n)
 
  
  
