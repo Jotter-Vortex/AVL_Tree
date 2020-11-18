@@ -3,7 +3,10 @@
 
 ### avl_tree.c
 * AVL tree is a binary tree balanced with respect to the heights of subtrees
- 
+- introduced by Adelson-Velskii and Landis, in 1962
+− use rebalancing using 4 kinds of rotations
+− search, insert, delete: O(log n)
+
  
  
  + BST를 만들때, height를 고려하지않고 만든다면,
